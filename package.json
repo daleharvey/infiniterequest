@@ -1,0 +1,9 @@
+{
+  "name": "ifiniterequest",
+  "version": "0.0.1",
+  "description": "Server that never responds",
+  "preferGlobal": "true",
+  "bin": { "infiniterequest": "infiniterequest.js" },
+  "author": "Dale Harvey",
+  "engines": { "node": "*" }
+}

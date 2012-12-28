@@ -1,0 +1,9 @@
+## Infinite Request
+
+A simple HTTP Server I use for testing, by default it starts a HTTP server that doesnt respond to any requests, you can optionally specify a ?timeout=X if you want it to respond after a X milliseconds.
+
+# Usage
+
+    $ npm install -g infiniterequest
+    $ infiniterequest 1337
+    $ curl -v http://127.0.0.1:1337?timeout=5000
