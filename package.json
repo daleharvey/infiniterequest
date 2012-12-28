@@ -1,6 +1,6 @@
 {
   "name": "infiniterequest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Server that never responds",
   "preferGlobal": "true",
   "bin": { "infiniterequest": "infiniterequest.js" },

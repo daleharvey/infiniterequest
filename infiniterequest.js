@@ -20,6 +20,7 @@ function handleRequest(request, response) {
     response.end();
     return;
   }
+  request.socket.setTimeout(86400 * 1000);
   var timeout = url.parse(request.url, true).query.timeout || false;
   if (timeout) {
     setTimeout(function() {
