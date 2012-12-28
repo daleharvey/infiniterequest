@@ -1,5 +1,5 @@
 {
-  "name": "ifiniterequest",
+  "name": "infiniterequest",
   "version": "0.0.1",
   "description": "Server that never responds",
   "preferGlobal": "true",
